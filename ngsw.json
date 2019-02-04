@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/1.e863a051ec29e8cb07a3.js",
+        "/10.d2be19a708aebcc622d0.js",
+        "/11.1938bfe102ad1e5d1331.js",
+        "/2.6148b41da34b696706f4.js",
+        "/6.d673439426f2c05556bd.js",
+        "/7.8a2aa9388c760cc715c0.js",
+        "/8.316e4a6df6643b45e95d.js",
+        "/9.5f2d47ff2545f0c6dde1.js",
+        "/IRANSansWeb.df14582918ca379a280e.woff",
+        "/IRANSansWeb.e43cfbc1a67d90e91039.eot",
+        "/assets/bg.jpeg",
+        "/favicon.ico",
+        "/index.html",
+        "/main.329b08cce34c7b94fea5.js",
+        "/manifest.json",
+        "/polyfills.dc52202758de171d1160.js",
+        "/runtime.3fc000ccca5eceb89621.js",
+        "/styles.2668e1890dff08c5ec7c.css"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "api rayda",
+      "patterns": [
+        "https:\\/\\/api\\.rayda\\.ir\\/api\\/v1\\/.*"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 60000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/1.e863a051ec29e8cb07a3.js": "82f0384c1c927e4e81b313b6b930c8c674c0c7fc",
+    "/10.d2be19a708aebcc622d0.js": "1f3eef7a945646af0245c2391c6e8aefbcbdf843",
+    "/11.1938bfe102ad1e5d1331.js": "81076eb6e80ebfcd76409b7cd3a92daa8e5da56b",
+    "/2.6148b41da34b696706f4.js": "e975aef21d1b581d359fe31f11b53726336f92fb",
+    "/6.d673439426f2c05556bd.js": "5028994ca49d2dbce40b456f7477cf2a491a6d19",
+    "/7.8a2aa9388c760cc715c0.js": "626d6b51703aa3b5cbddf02f5964f9f4359b3cad",
+    "/8.316e4a6df6643b45e95d.js": "fa59449f3cc8b2e2c03caa6c78007fbb52966c7e",
+    "/9.5f2d47ff2545f0c6dde1.js": "6d70e5a8bffb5bb17baeb78e0e161ff5f4425c65",
+    "/IRANSansWeb.df14582918ca379a280e.woff": "da54a2d366daa668fcfd6ab2e07688ae425de99f",
+    "/IRANSansWeb.e43cfbc1a67d90e91039.eot": "46af455fbe566c892965b4c55679e4797d5ef625",
+    "/assets/bg.jpeg": "c3b797cf1b3a25c2f5affd21239a2d538f1c2940",
+    "/favicon.ico": "995ac7f51e2bf26912a948a2d3cbf1ca449b9ec7",
+    "/index.html": "1cbc4fe198302d0541d0ffb1cfab34f3d5258aa7",
+    "/main.329b08cce34c7b94fea5.js": "264dc7009eca50d5ddb1fae3af4d85b9680d3674",
+    "/manifest.json": "d3fd0813287c8f99f12491c10532b288bf73b4a1",
+    "/polyfills.dc52202758de171d1160.js": "088f355bc46df778509743f5025ddafd13b478c7",
+    "/runtime.3fc000ccca5eceb89621.js": "2ad1c3d940da653e646409cd92472ce1240b6ccc",
+    "/styles.2668e1890dff08c5ec7c.css": "859fff8bd1205f7ffcbe4ba0b1afd0618db9f35f"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
